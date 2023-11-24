@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.d4979f85.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d4979f85.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.f209df58.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f209df58.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f2bbf3c5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f2bbf3c5.js.map",
     "static/css/2.4185c07f.chunk.css": "/portfolio/static/css/2.4185c07f.chunk.css",
@@ -12,6 +12,7 @@
     "static/js/2.4dd6291c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4dd6291c.chunk.js.LICENSE.txt",
     "static/media/gabao-gradient-full.aeba6758.png": "/portfolio/static/media/gabao-gradient-full.aeba6758.png",
     "static/media/owm-api-app.76bf8db0.png": "/portfolio/static/media/owm-api-app.76bf8db0.png",
+    "static/media/sb.aa9db21c.png": "/portfolio/static/media/sb.aa9db21c.png",
     "static/media/solar-dashboard.0af1d623.png": "/portfolio/static/media/solar-dashboard.0af1d623.png",
     "static/media/sweet-landing-light.c82d2a07.png": "/portfolio/static/media/sweet-landing-light.c82d2a07.png"
   },
@@ -19,6 +20,6 @@
     "static/js/runtime-main.f2bbf3c5.js",
     "static/css/2.4185c07f.chunk.css",
     "static/js/2.4dd6291c.chunk.js",
-    "static/js/main.d4979f85.chunk.js"
+    "static/js/main.f209df58.chunk.js"
   ]
 }
