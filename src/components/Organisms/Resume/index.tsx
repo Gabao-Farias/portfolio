@@ -12,8 +12,8 @@ import {
 
 const Resume: FC = () => {
   const router = useRouter();
-  const englishCVURL = `/cv/cv-english.pdf`;
-  const portugueseCVURL = `/cv/cv-portuguese.pdf`;
+  const englishCVURL = `/portfolio/cv/cv-english.pdf`;
+  const portugueseCVURL = `/portfolio/cv/cv-portuguese.pdf`;
 
   const onclickEnglishCV = () => {
     if (window) {
