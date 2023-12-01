@@ -10,6 +10,7 @@ const mediumSpacing = getThemeByPath("spacings.medium");
 
 export const Wrapper = styled.div`
   display: flex;
+  overflow-x: auto;
 `;
 
 export const LogoWrapper = styled.div``;
