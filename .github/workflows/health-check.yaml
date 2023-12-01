@@ -1,0 +1,42 @@
+name: Code Health Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check:
+    name: Code Health Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository checkout
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        uses: actions/setup-node@v3
+        with:
+          # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
+          # If node-version and node-version-file are both provided the action will use version from node-version.
+          node-version-file: ".nvmrc"
+      - run: npm install
+      - name: Lint
+        uses: actions/setup-node@v3
+        with:
+          # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
+          # If node-version and node-version-file are both provided the action will use version from node-version.
+          node-version-file: ".nvmrc"
+      - run: npm run lint
+      - name: Test
+        uses: actions/setup-node@v3
+        with:
+          # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
+          # If node-version and node-version-file are both provided the action will use version from node-version.
+          node-version-file: ".nvmrc"
+      - run: npm run test
+      - name: Build status
+        uses: actions/setup-node@v3
+        with:
+          # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
+          # If node-version and node-version-file are both provided the action will use version from node-version.
+          node-version-file: ".nvmrc"
+      - run: npm run build
