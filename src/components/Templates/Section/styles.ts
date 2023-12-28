@@ -53,6 +53,7 @@ export const ContentWrapper = styled.div`
 
 export const InnerContentWrapper = styled.div<InnerContentWrapperProps>`
   display: flex;
+  flex: 1;
   align-items: center;
 
   @media (max-width: ${tablet}px) {
