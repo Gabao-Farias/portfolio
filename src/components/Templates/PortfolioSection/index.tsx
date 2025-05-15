@@ -1,4 +1,5 @@
 import {
+  ExampleiFuteBanner,
   ExampleOwmApiApp,
   ExampleSB,
   ExampleSolarDashboard,
@@ -6,7 +7,7 @@ import {
 } from "@/assets";
 import { ContentPadder, ProjectCard, WidthLimiter } from "@/components";
 import { ProjectCardType } from "@/components/Molecules/ProjectCard";
-import { DEFAULT_PORTFOLIO_SECTION_ID } from "@/utils";
+import { DEFAULT_PORTFOLIO_SECTION_ID, getPlatform } from "@/utils";
 import { FC } from "react";
 import {
   ContentWrapper,
@@ -81,6 +82,26 @@ const examples: ProjectCardType[] = [
       "https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white",
       "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
       "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white",
+    ],
+  },
+  {
+    title: "iFute",
+    description:
+      "On this project I handled the whole thing, including designs, infrastructure, back-end and front-end. It's also available at App Store and Google Play!",
+    imageSrc: ExampleiFuteBanner,
+    href: getPlatform() === 'iOS' || getPlatform() === 'macOS' ? "https://apps.apple.com/br/app/ifute-sports/id6743678053?l=en-GB" : "https://play.google.com/store/apps/details?id=com.ifute&hl=en",
+    techs: [
+      "https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+      "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white",
+      "https://img.shields.io/badge/postgresql-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white",
+      "https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white",
+      "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+      "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white",
+      "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
+      "https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white",
+      "https://img.shields.io/badge/fastlane-00F200?style=for-the-badge&logo=fastlane&logoColor=00F200&color=black",
+      "https://img.shields.io/badge/pm2-2B037A?style=for-the-badge&logo=pm2&logoColor=white",
+      "https://img.shields.io/badge/expressjs-000000?style=for-the-badge&logo=express&logoColor=white",
     ],
   },
 ];
