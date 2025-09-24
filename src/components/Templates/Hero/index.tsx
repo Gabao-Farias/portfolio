@@ -31,15 +31,7 @@ const Hero: FC<Props> = ({ onClick }) => {
                 <PresentationTitle>Hi, I&lsquo;m Gabão</PresentationTitle>
                 <PresentationTextWrapper>
                   <PresentationText>
-                    I&lsquo;m a processor of coffee and pizza that reads
-                    sketches, wireframes and turn them into connected, beautiful
-                    and fluid user experiences by writing code. Exactly!
-                    I&lsquo;m a
-                    <BoldPresentationText>
-                      {" "}
-                      Front-End Developer
-                    </BoldPresentationText>
-                    .
+                    I&lsquo;m a <BoldPresentationText>fullstack developer</BoldPresentationText> focusing in delivering value by building in the back-end and front-end including web and mobile, and all this being powered by Javascript.
                   </PresentationText>
                 </PresentationTextWrapper>
                 <ButtonWrapper>

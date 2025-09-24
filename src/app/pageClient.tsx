@@ -20,7 +20,7 @@ import { CardItemWrapper, CardsWrapper, ImageWrapper } from "./styles";
 export default function PageClient() {
   const { handleSubmit, control } = useForm();
 
-  const openLink = () => {};
+  const openLink = () => { };
 
   const onSubmit = (data: FieldValues) => {
     const dataTyped = data as ValuesType;
@@ -77,6 +77,13 @@ export default function PageClient() {
       title: "Web",
       icon: "application",
     },
+    {
+      key: "2",
+      label:
+        "And finally, to give life to all those screens, flows and interaction, both data and logic is needed, that's where back-end comes in.",
+      title: "Back-end",
+      icon: "servers",
+    },
   ];
 
   return (
@@ -86,7 +93,7 @@ export default function PageClient() {
       <Section
         id={DEFAULT_ABOUT_SECTION_ID}
         buttonLabel="Get in touch"
-        text="Started my journey in technology actually when I was 3 years old, but started to get deeper on it in 2018 in the Computer Science Bachelor's course at Universidade Regional Integrada do Alto Uruguai e das Missões. Currently I work as a Freelancer and I keep studying to improve my services and raise knowledge in technology."
+        text="Started my journey in technology in 2018 in the Computer Science Bachelor's course at Universidade Regional Integrada do Alto Uruguai e das Missões. Had the first job opportunity at Platform Builders at the Front-End space. There I've had contact with many experienced developers who taught me a lot of web and mobile development. Currently I work at SAN Internet, progressively building and raising my knowledgement in several different areas of computer science and industry."
         title="About"
         invertSide
         onPress={() => scrollToID(DEFAULT_CONTACTS_SECTION_ID)}
@@ -99,7 +106,7 @@ export default function PageClient() {
       <Section
         id={DEFAULT_SERVICES_SECTION_ID}
         buttonLabel="Get in touch"
-        text="As the main expertise is at the Front-End, naturally, React and React Native are the most used technologies, also Next.js for the web in the contexts where SEO is a high priority."
+        text="As the title already says, my main language of expertise is Javascript, which allows me to build projects ready for Web and Mobile environments."
         title="Services"
         onPress={() => scrollToID(DEFAULT_CONTACTS_SECTION_ID)}
       >

@@ -7,7 +7,7 @@ import {
 } from "@/assets";
 import { ContentPadder, ProjectCard, WidthLimiter } from "@/components";
 import { ProjectCardType } from "@/components/Molecules/ProjectCard";
-import { DEFAULT_PORTFOLIO_SECTION_ID, getPlatform } from "@/utils";
+import { DEFAULT_PORTFOLIO_SECTION_ID } from "@/utils";
 import { FC } from "react";
 import {
   ContentWrapper,
@@ -89,7 +89,7 @@ const examples: ProjectCardType[] = [
     description:
       "On this project I handled the whole thing, including designs, infrastructure, back-end and front-end. It's also available at App Store and Google Play!",
     imageSrc: ExampleiFuteBanner,
-    href: getPlatform() === 'iOS' || getPlatform() === 'macOS' ? "https://apps.apple.com/br/app/ifute-sports/id6743678053?l=en-GB" : "https://play.google.com/store/apps/details?id=com.ifute&hl=en",
+    href: "https://ifute.com.br/",
     techs: [
       "https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
       "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white",
@@ -106,7 +106,7 @@ const examples: ProjectCardType[] = [
   },
 ];
 
-const PortfolioSection: FC = ({}) => {
+const PortfolioSection: FC = ({ }) => {
   return (
     <Wrapper id={DEFAULT_PORTFOLIO_SECTION_ID}>
       <ContentPadder>
