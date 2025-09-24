@@ -93,7 +93,7 @@ export default function PageClient() {
       <Section
         id={DEFAULT_ABOUT_SECTION_ID}
         buttonLabel="Get in touch"
-        text="Started my journey in technology in 2018 in the Computer Science Bachelor's course at Universidade Regional Integrada do Alto Uruguai e das Missões. Had the first job opportunity at Platform Builders at the Front-End space. There I've had contact with many experienced developers who taught me a lot of web and mobile development. Currently I work at SAN Internet, progressively building and raising my knowledgement in several different areas of computer science and industry."
+        text="Started my journey in technology in 2018 in the Computer Science Bachelor's course at Universidade Regional Integrada do Alto Uruguai e das Missões. Had the first job opportunity at Platform Builders at the Front-End space. There I've had contact with many experienced developers who taught me a lot of web and mobile development. Currently I work at SAN Internet, progressively building and raising my knowledgement in several different areas of computer science and technology industry."
         title="About"
         invertSide
         onPress={() => scrollToID(DEFAULT_CONTACTS_SECTION_ID)}
@@ -106,7 +106,7 @@ export default function PageClient() {
       <Section
         id={DEFAULT_SERVICES_SECTION_ID}
         buttonLabel="Get in touch"
-        text="As the title already says, my main language of expertise is Javascript, which allows me to build projects ready for Web and Mobile environments."
+        text="As the title already says, my main language of expertise is Javascript, which allows me to build projects ready for the Back-end, Web and Mobile environments."
         title="Services"
         onPress={() => scrollToID(DEFAULT_CONTACTS_SECTION_ID)}
       >
