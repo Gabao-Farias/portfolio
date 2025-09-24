@@ -7,6 +7,7 @@ import LinkedIn from "./LinkedIn";
 import Medium from "./Medium";
 import Mobile from "./Mobile";
 import Moon from "./Moon";
+import Servers from "./Servers";
 import Sun from "./Sun";
 
 export const SVGIcons = {
@@ -20,6 +21,7 @@ export const SVGIcons = {
   gmail: GMail,
   medium: Medium,
   linkedin: LinkedIn,
+  servers: Servers,
 };
 
 export type SVGIconKeys = keyof typeof SVGIcons;
