@@ -31,7 +31,7 @@ const Hero: FC<Props> = ({ onClick }) => {
                 <PresentationTitle>Hi, I&lsquo;m Gabão</PresentationTitle>
                 <PresentationTextWrapper>
                   <PresentationText>
-                    I&lsquo;m a <BoldPresentationText>fullstack developer</BoldPresentationText> focusing in delivering value by building in the back-end and front-end including web and mobile, and all this being powered by Javascript.
+                    I&lsquo;m a <BoldPresentationText>frontend-focused full-stack developer</BoldPresentationText> specializing in React, React Native and TypeScript, with backend experience in Node.js, NestJS, Vue and Python. Most of my work is in <BoldPresentationText>fintech</BoldPresentationText> — and I&lsquo;m open to remote contract roles with US &amp; EU companies.
                   </PresentationText>
                 </PresentationTextWrapper>
                 <ButtonWrapper>

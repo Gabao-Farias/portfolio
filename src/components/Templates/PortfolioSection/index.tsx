@@ -25,7 +25,7 @@ const examples: ProjectCardType[] = [
   {
     title: "Solar Dashboard",
     description:
-      "A simple dashboard created to visualize data from a solar power plant, located at university of URI Santo Ângelo. In this specific project I went fullstack.",
+      "A dashboard to visualize data from a solar power plant at URI Santo Ângelo. I built the Node.js/Express backend (served with Nginx), the database integration and the React dashboard — work that became the basis of a peer-reviewed book chapter (Atena Editora, 2025).",
     imageSrc: ExampleSolarDashboard,
     href: "https://dancing-torte-fe54b0.netlify.app/",
     techs: [
@@ -33,6 +33,7 @@ const examples: ProjectCardType[] = [
       "https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white",
       "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
       "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+      "https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white",
       "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white",
       "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
       "https://img.shields.io/badge/-MobX-FF9955?style=for-the-badge&labelColor=FF9955&logo=mobx&logoColor=white",
@@ -87,7 +88,7 @@ const examples: ProjectCardType[] = [
   {
     title: "iFute",
     description:
-      "On this project I handled the whole thing, including designs, infrastructure, back-end and front-end. It's also available at App Store and Google Play!",
+      "A multi-tenant platform I built end-to-end and solo — design, infrastructure, back-end, back-office web and mobile app. It's live on the App Store and Google Play.",
     imageSrc: ExampleiFuteBanner,
     href: "https://ifute.com.br/",
     techs: [
